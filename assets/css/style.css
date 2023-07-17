@@ -105,11 +105,13 @@
     line-height: normal;
 }
 
+/* 
 .min_vh {
     min-height: 100vh;
-}
+} */
 
 .vitae {
+    margin-top: 20px;
 
     color: var(--white, #FFF);
     font-size: 61px;
@@ -157,7 +159,7 @@ header {
 }
 
 .mt32 {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .Cursus {
@@ -228,6 +230,7 @@ header {
     gap: 10px;
     border-radius: 23.5px;
     background: var(--gradient-h, linear-gradient(90deg, #FFA800 0%, #F06500 100%));
+    font-size: 18px;
 }
 
 .bg {
@@ -279,13 +282,14 @@ header {
 }
 
 .top {
-    margin-left: auto;
-    margin-right: auto;
-    /* margin-left: 50PX; */
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 .IMG {
-    transform: translate(13% -1%);
+    transform: translateY(13% -1%);
 
 }
 
@@ -399,6 +403,10 @@ header {
     background: #00E396;
 }
 
+.textalgincnt {
+    align-items: center;
+}
+
 .minbox1 {
     width: 50px;
     height: 50px;
@@ -482,7 +490,13 @@ header {
     margin-left: 10px;
 }
 
+.h100 {
+    height: 100%;
+}
+
+
 .no {
+    font-size: 22px;
     margin-top: 10px;
     margin-left: 10px;
 
@@ -531,7 +545,7 @@ header {
 
 section {
     background-color: black;
-    min-height: 100vh;
+
     font-family: "helventica sens-serif";
     display: flex;
     justify-content: center;
@@ -598,11 +612,25 @@ section {
     z-index: 1;
 }
 
+
+.bgtranspirit {
+    background: transparent 2px solid black;
+}
+
 .left {
     left: 0;
 }
 
+.Connect {
+    font-size: 22px;
+}
 
+.cardblur {
+    border-radius: 10px;
+    background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(16px);
+    border: solid #454443;
+}
 
 .phase1 {
 
@@ -638,6 +666,14 @@ section {
     margin-bottom: 40px;
 }
 
+.font1 {
+    font-size: 22px;
+}
+
+.size {
+    font-size: 18px;
+}
+
 .imt {
     margin-top: 20px;
 }
@@ -665,9 +701,9 @@ section {
     bottom: 0%;
 }
 
-/* .top {
+.top {
     top: 590%;
-} */
+}
 
 
 .faq {
@@ -687,9 +723,18 @@ section {
     left: -13px;
 }
 
+.fcolr {
+    color: #BBBABA;
+}
+
 .font1 {
     font-family: 'Poppins',
         sans-serif;
+}
+
+.clip {
+    color: #BBBABA;
+
 }
 
 .sdakpara4 {
@@ -704,6 +749,11 @@ section {
     font-weight: 400;
     line-height: 180%;
 
+}
+
+.navbg {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(1px);
 }
 
 .road {
@@ -790,7 +840,7 @@ section {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        /* z-index: 2; */
+        z-index: 2;
     }
 
 
@@ -919,7 +969,7 @@ section {
     }
 
     .maintext {
-        font-size: 11px;
+        font-size: 18px;
     }
 
     .text {
@@ -975,6 +1025,10 @@ section {
         font-weight: 400;
         line-height: 180%;
     }
+
+    .mt32 {
+        margin-top: 10px;
+    }
 }
 
 
@@ -988,15 +1042,14 @@ section {
 
 @media (min-width:576px) {
     .vitae {
-        color: var(--white, #FFF);
+        color: #BBBABA;
         font-size: 89px;
         font-weight: 700;
     }
 
 
     .Cursus {
-        color: var(--white, #FFF);
-
+        color: #FFF;
         font-size: 48px;
 
         font-weight: 600;
@@ -1004,7 +1057,8 @@ section {
     }
 
     .tok {
-        color: var(--white, #FFF);
+        margin-top: 13px;
+        color: #FFF;
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-size: 48px;
@@ -1014,7 +1068,7 @@ section {
     }
 
     .para1 {
-        color: var(--white, #FFF);
+        color: #BBBABA;
 
 
         font-size: 18px;
@@ -1036,8 +1090,7 @@ section {
     }
 
     .Cursus2 {
-        color: var(--white, #FFF);
-
+        color: white;
         font-size: 48px;
 
         font-weight: 600;
@@ -1045,7 +1098,7 @@ section {
     }
 
     .text {
-        color: var(--white, #FFF);
+        color: #BBBABA;
 
         font-size: 18px;
 
@@ -1054,7 +1107,7 @@ section {
     }
 
     .urna {
-        color: var(--white, #FFF);
+        color: #BBBABA;
 
 
         font-size: 18px;
@@ -1088,6 +1141,14 @@ section {
         font-weight: 400;
         line-height: 180%;
     }
+
+    .maintext {
+        font-size: 18px;
+    }
+
+    .mt32 {
+        margin-top: 150px;
+    }
 }
 
 @media (min-width:768px) {
@@ -1096,4 +1157,22 @@ section {
         font-size: 97px;
         font-weight: 700;
     }
+}
+
+@media (min-width:768px) {
+    .position_md_absolute {
+
+        position: absolute;
+    }
+
+}
+
+.w_md_50 {
+    width: 50%;
+}
+
+.img_positioning {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
